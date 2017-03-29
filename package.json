@@ -1,0 +1,19 @@
+{
+  "name": "openwhisk-nodejs",
+  "version": "1.0.0",
+  "description": "Sample OpenWhisk NodeJS serverless framework service.",
+  "main": "handler.js",
+  "scripts": {
+    "postinstall": "npm link serverless-openwhisk"
+  },
+  "keywords": [
+    "serverless",
+    "openwhisk"
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "request": "^2.81.0",
+    "serverless-openwhisk": "^0.5.0",
+    "unfluff": "^1.1.0"
+  }
+}
